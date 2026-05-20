@@ -47,6 +47,12 @@ function addProduct(product) {
   products.push(product)
 }
 
+function add(num1, num2) {
+  return num1 + num2
+}
+const filteredProducts = computed(() => {
+  return products.filter(product => p.price > 100)
+})
 
 
 </script>
